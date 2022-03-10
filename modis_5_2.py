@@ -128,17 +128,11 @@ def extractData(dir):
 # each of these directories contains numbered subfolders
 # each subfolder corresponds to one day, and contains ~100 hdf4 files
 # each hdf4 file contains data for one set of observations
-dir1 = r"D:\UKuni\3rdYr\Project\GIS_data\AOD_trans1\modis\MOD04_L2\2013\2013ii"
-dir2 = r"D:\UKuni\3rdYr\Project\GIS_data\AOD_trans1\modis\MOD04_L2\2015\2015ii"
-dir3 = r"D:\UKuni\3rdYr\Project\GIS_data\AOD_trans1\modis\MOD04_L2\2016\2016i"
-dir4 = r"D:\UKuni\3rdYr\Project\GIS_data\AOD_trans1\modis\MOD04_L2\2016\2016ii"
-dir5 = r"D:\UKuni\3rdYr\Project\GIS_data\AOD_trans1\modis\MOD04_L2\2019\2019_replacement_files"
-dir6 = r"D:\UKuni\3rdYr\Project\GIS_data\AOD_trans1\modis\MOD04_L2\2013\2013_replacement_files"
-dir7 = r"D:\UKuni\3rdYr\Project\GIS_data\AOD_trans1\modis\MOD04_L2\2018\2018_replacement_files"
-dir8 = r"D:\UKuni\3rdYr\Project\GIS_data\AOD_trans1\modis\MOD04_L2\2014\2014i"
-dir9 = r"D:\UKuni\3rdYr\Project\GIS_data\AOD_trans1\modis\MOD04_L2\2014\2014ii"
+dir1 = r"first\dir\path\goes\here"
+### other dirs go here ###
+dir1 = r"last\dir\path\goes\here"
 
-dirs = [dir8, dir9]
+dirs = [] # dirs to extract from
 
 for dir in dirs:
     try:
