@@ -130,7 +130,7 @@ def extractData(dir):
 # each hdf4 file contains data for one set of observations
 dir1 = r"first\dir\path\goes\here"
 ### other dirs go here ###
-dir1 = r"last\dir\path\goes\here"
+dir10 = r"last\dir\path\goes\here"
 
 dirs = [] # dirs to extract from
 
